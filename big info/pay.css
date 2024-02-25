@@ -1,0 +1,167 @@
+.pay__wrap-product-one{
+    width: 440px;
+height: 560px;
+border: 1px solid #E3E3E3;
+
+
+}
+.pay__wrap-product-two{
+    width: 440px;
+height: 600px;
+border: 1px solid #E3E3E3;
+box-shadow: 0px 6px 25px 0px #00000040;
+
+
+
+}
+.pay__wrap-title{
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+color: #4D4D4D;
+margin-bottom: 90px;
+margin-top: 40px;
+
+}
+.pay__wrap{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.pay__wrap-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    gap:  40px;
+
+}
+.pay__wrap-logo{
+    display: flex;
+margin-left: 147px;
+ gap: 5px;
+ align-items: center;
+ margin-top: 30px;
+}
+.pay__logo-img{
+    width: 40px;
+    height: 40px;
+}
+.pay__logo-name{
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+color: #481C03;
+
+}
+.pay__wrap-hr{
+    width: 340px;
+    height: 1.5px;
+    background: #E3E3E3;
+margin-left: 50px;
+
+
+
+
+}
+.pay__wrap-prize-one ,
+.pay__wrap-prize-two ,
+.pay__wrap-prize-three ,
+.pay__wrap-prize-four ,
+.pay__wrap-prize-five{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.pay__wrap-prize-one{
+    gap: 202px;
+}
+.pay__wrap-prize-two{
+    gap: 117px;
+}
+.pay__wrap-prize-three{
+    gap: 179px; 
+}
+
+.pay__wrap-prize-four{
+    gap: 136px;
+}
+.pay__wrap-prize-five{
+    gap: 110px;
+}
+.pay__wrap-prize{
+    margin-left: 60px;
+    margin-right: 60px;
+
+}
+.pay__prize-info-one ,
+.pay__prize-info-two{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #4D4D4D;
+
+}
+
+.pay__wrap-prize-buy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pay__wrap-prize-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pay__wrap-prize-day{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+color: #481C03;
+margin-top: 20px;
+
+
+}
+.pay__wrap-info-prize{
+    font-family: Montserrat;
+font-size: 36px;
+font-weight: 600;
+line-height: 44px;
+letter-spacing: 0em;
+text-align: left;
+color: #481C03;
+
+}
+.pay__buy-name{
+    font-family: Montserrat;
+font-size: 26px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+padding: 14px 20px 14px 0px;
+
+
+}
+.pay__buy-logo{
+    padding: 0 0 0 20px;
+}
+.pay__wrap-prize-buy{
+    background: #FE9E45;
+    margin-top: 10px;
+
+}

@@ -1,0 +1,48 @@
+ <div class="adventage__wrap-info">
+                                <img src="./whh_gearsalt.png" alt="" class="adventege__info-img">
+                                <h1 class="adventege__info-title"></h1>
+                                <p class="adventege__info-text"></p>
+                            </div>
+
+                            <div class="adventage__wrap-info">
+                                <img src="./ion_rocket-sharp.png" alt="" class="adventege__info-img">
+                                <h1 class="adventege__info-title">Скорость</h1>
+                                <div class="adventege__info-texts">
+                                    <p class="adventege__info-text">Интернет канал без ограничений
+                                       </p>
+                                       <p class="adventege__info-text-two"> Быстрый отклик</p>
+                                </div>
+                            </div>
+                            <div class="adventage__wrap-info">
+                                <img src="./icomoon-free_windows8.png" alt="" class="adventege__info-img">
+                                <h1 class="adventege__info-title"></h1>
+                                <p class="adventege__info-text"></p>
+                            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             <div class="adventage__wrap-info">
+                                <img src="./Vector.png" alt="" class="adventege__info-img">
+                                <h1 class="adventege__info-title"></h1>
+                                <p class="adventege__info-text"></p>
+                            </div>
+                            <div class="adventage__wrap-info">
+                                <img src="./healthicons_money-bag.png" alt="" class="adventege__info-img">
+                                <h1 class="adventege__info-title"></h1>
+                                <p class="adventege__info-text"></p>
+                            </div>
+                            <div class="adventage__wrap-info">
+                                <img src="./carbon_fingerprint-recognition.png" alt="" class="adventege__info-img">
+                                <h1 class="adventege__info-title"></h1>
+                                <p class="adventege__info-text"></p>
+                            </div>

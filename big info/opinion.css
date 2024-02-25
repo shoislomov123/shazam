@@ -1,0 +1,122 @@
+.opinion__wrap-info{
+    width: 1020px;
+   background-color: rgb(45, 45, 45);
+   height: 790px;
+}
+.opinion__section-number{
+    width: 80px;
+    height: 70px;
+    border-radius:10px 0px 0px 10px;
+    background: #FE9E45;
+    border: 1px solid white;
+
+}
+.opinion__section-info{
+    background: #262D36;
+width: 400px;
+height: 70px;
+border: 1px solid white;
+}
+.opinion__info-section{
+    display: flex;
+    align-items: center;
+
+}
+.opinion__info-text{
+    color: white;
+font-size: 22px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 15px;
+
+}
+.opinion__number{
+    margin: 7px 26px;   
+    margin-top: 10px;
+}
+.opinion___info_info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    
+}
+.opinion__info-title{
+    font-family: Montserrat;
+font-size: 40px;
+font-weight: 600;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 50px;
+color: #FE9E45;
+
+
+}
+.opinion__info-hr{
+    width: 540px;
+    height: 1.5px;
+    background: #E3E3E3;
+margin-left: 30px;
+border: 1px solid #765B41;
+margin-top: 10px;
+}
+.opinion__information-text{
+    font-family: Montserrat;
+font-size: 24px;
+font-weight: 500;
+line-height: 29px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.opinion__info-information{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    margin-left: 70px;
+    margin-top: 10px;
+}
+.opinion__info-sticer{
+    width: 200px;
+    height: 200px;
+}
+/* .opinion__wrap-info{
+    display: flex;justify-content: space-between;
+} */
+.opinion__info-info-info{
+    /* display: flex; */
+    /* gap: 130px; */
+    /* gap: -100px;     */
+}
+.opinion___info_info{
+    margin-left: 50px;
+}
+.opinion__info-div-sticer{
+    height: 200px;
+    width: 200px;
+}
+.btn10{
+    /* margin-left: 400px; */
+}
+.opinion__sections{
+    display: flex;
+flex-direction: row;
+    align-items: center;
+    gap: 140px;
+}
+.opinion__sections-two{
+    display: flex;
+    gap: 240px;
+    align-items: center;
+}
+.opinion__sections-info ,
+.opinion__sections-info-two{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
