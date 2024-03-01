@@ -22,15 +22,18 @@
 }
 .header__link{
     text-decoration: none;
-color: #828282;
+color: #000000;
 font-family: Gilroy-Bold;
-font-size: 18px;
-transition: all 1.5s;
-padding-bottom: 40px;
+font-size: 25px;
+transition: all 0.5s;
+font-weight: 600;
+margin-bottom: 40px;
+border-bottom: 3px solid transparent;
 
 }
 .header__link:hover{
-    color: black;
+    border-bottom: 3px solid black;
+    
 }
 /* .hero__info-text{
    padding-left: 30px;
@@ -160,6 +163,7 @@ padding-top: 30px;
     align-items: center;
     /* background-color:  black; */
     padding-top: 40px;
+    justify-content: space-between;
 
 }
 .markets__wrap-prices{
@@ -167,6 +171,30 @@ padding-top: 30px;
     justify-content: space-evenly;
     max-width: 400px;
     width: 100%;
+}
+.markets__prices-info-one{
+    display: flex;  
+
+    max-width: 650px;
+    width: 100%;
+}
+.markets__product-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+}
+.markets__product-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p{
+        font-size: 23px;
+        color: gray;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
 }
 .markets__prices-info{
     display: flex;
@@ -178,13 +206,30 @@ padding-top: 30px;
 font-size: 43px;
 /* color: white; */
 }
+.markets__prices-bigprice{
+    color: rgb(227, 0, 0);
+}
 .markets__wrap-title{
 /* color: white; */
 font-size: xxx-large;
+font-weight: 600;
 }
 .markets__wrap-text{
     /* color: white; */
     font-size: 28px;
+    font-weight: 600;
+    padding-top: 25px;
+}
+.markets__wrap-pictures{
+    width: 500px;
+}
+.markets__info-text{
+    font-size: 23px;
+    font-weight: 600;
+}
+.markets__info-text-info{
+    font-size: 23px;
+    font-weight: 500;
 }
 .burger{
     width: 40px;
@@ -251,5 +296,30 @@ justify-content: space-evenly;
     }
 
 }
+@media(max-width:815px){
 
+    .header__wrap-logo{
+        width: 150px;
+    }
+}
+@media(max-width:490px){
+    .markets__wrap-pictures{
+        width: 300px;
+    }
+}
+@media(max-width:483px){
+    .markets__wrap-text{
+        font-size:23px ;
+    }
+}
+@media(max-width:397px){
+    .markets__wrap-text{
+        font-size:20px ;
+    }
+}
 
+@media(max-width:345px){
+    .markets__wrap-text{
+        font-size:18px ;
+    }
+}
