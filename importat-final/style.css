@@ -12,7 +12,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     border-bottom: 1px solid #828282 ;
     margin-bottom: 20px;
 }
@@ -83,7 +83,7 @@ color: black;
     
 }
 .header__wrap-logo{
-    width: 200px;
+    width: 150px;
 }
 .about__wrap{
     display: flex;
@@ -153,6 +153,7 @@ font-weight: 600;
 }
 .about__info-logo{
     width: 300px;
+    padding-top: 10px;
 }
 .skills__wrap-text{
     padding-bottom: 40px;
@@ -166,6 +167,7 @@ font-weight: 600;
     /* background-color:  black; */
     padding-top: 40px;
     justify-content: space-between;
+    padding-bottom: 40px;       
 
 }
 .markets__wrap-prices{
@@ -175,10 +177,16 @@ font-weight: 600;
     width: 100%;
 }
 .markets__prices-info-one{
-    display: flex;  
+padding: 15px 55px;  
+-webkit-box-shadow: -1px 50px 100px 29px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: -1px 50px 100px 29px rgba(0, 0, 0, 0.2);
+box-shadow: -1px 50px 100px 29px rgba(0, 0, 0, 0.2);
+color: white;
+background-color: #000000;
+border-radius: 4px;
+margin-top: 20px;
 
-    max-width: 650px;
-    width: 100%;
+   
 }
 .markets__product-info{
     display: flex;
@@ -273,7 +281,7 @@ justify-content: space-evenly;
     max-width: 500px;
     width: 100%;
     position: fixed;
-
+z-index: 10;
     left: -100%;
     transition: all 1s;
     flex-direction: column;
@@ -324,6 +332,12 @@ justify-content: space-evenly;
     padding-bottom: 10px;
     margin-top: 30px;
 
+}
+.btn6{
+    color: white;
+}
+.btn5{
+    color: rgb(117, 0, 190);
 }
 .skills__programs-info{
     margin-top: 50px;
@@ -419,7 +433,7 @@ justify-content: space-evenly;
 @media(max-width:815px){
 
     .header__wrap-logo{
-        width: 150px;
+        width: 100px;
     }
 }
 @media(max-width:490px){
